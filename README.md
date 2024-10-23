@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Alt Text] (./images/Figure 1.png, "Figure 1")
+![Alt Text] (https://github.com/coop9828/Gemini-1.5/blob/main/Figure%201.png)
 *This figure shows near-perfect "needle" recall across all modalities (text, video, audio), demonstrating the model's unprecedented multimodal capabilities at scale. This is an excellent opening visual as it immediately shows the paper's key achievement.*
 
 This repository contains materials for a presentation on the paper "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context" by the Gemini Team at Google.
