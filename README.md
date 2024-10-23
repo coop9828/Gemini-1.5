@@ -118,30 +118,30 @@ Subroutine: MLP_i(X)
 ## Performance Analysis
 
 ### Core Model Performance
-![Testng](images/Table1.png, "Table 1")
-![Testing](images/Table2.png, "Table 2")
+![Table 1](images/Table1.png)
+![Table 2](images/Table2.png)
 *These tables provide comprehensive win rates comparing Gemini 1.5 Pro and Flash against previous models, showing improvements across different capabilities.*
 
-![Testing](images/Figure7.png, "Figure 7")
+![Figure 7](images/Figure7.png)
 *These graphs showing cumulative average negative log-likelihood demonstrate how performance improves with increased context length, following a power-law distribution.*
 
 ### Long-Context Evaluation
-![Testing](images/Figure8.png, "Figure 8")
+![Figure 8](images/Figure8.png)
 *Text haystack results showing performance across different context lengths and depths, demonstrating robust retrieval capabilities up to 10M tokens.*
 
-![Testing](images/Figure9.png, "Figure 9")
+![Figure 9](images/Figure9.png)
 *Video haystack results extending similar evaluation to video content, showing strong performance up to 10.5 hours of video.*
 
 ### Scaling and Learning
-![Testing](images/Figure13.png, "Figure 13")
+![Figure 13](images/Figure13.png)
 *In-context learning scaling results showing improved performance across languages and tasks with increased context.*
 
 ## Real-World Applications and Impact
 
-![Alt Text](images/Figure16.png, "Figure 16")
+![Figure 16](images/Figure16.png)
 *Planning capabilities across different domains, demonstrating practical applications from classical planning to natural language tasks.*
 
-![Testing](images/Figure19.png, "Figure 19")
+![Figure 17](images/Figure19.png)
 *Professional impact analysis showing significant time savings across various industries and job functions.*
 
 ### Real World Deployment Challenges
@@ -150,11 +150,11 @@ Subroutine: MLP_i(X)
 ## Safety and Future Directions
 
 ### Safety Analysis
-![Alt Text](images/Figure26.png, "Figure 26")
+![Figure 26](images/Figure26.png)
 *BBQ dataset results demonstrating model performance on bias and fairness metrics.*
 
 ### Future Scaling
-![Alt Text](images/Figure20.png, "Figure 20")
+![Figure 20](images/Figure20.png)
 *Flash-8B model results showing potential for efficient scaling while maintaining strong performance.*
 
 
