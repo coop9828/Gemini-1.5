@@ -122,7 +122,7 @@ Subroutine: MLP_i(X)
 ![Testing](images/Table2.png, "Table 2")
 *These tables provide comprehensive win rates comparing Gemini 1.5 Pro and Flash against previous models, showing improvements across different capabilities.*
 
-![Testing] (images/Figure7.png, "Figure 7")
+![Testing](images/Figure7.png, "Figure 7")
 *These graphs showing cumulative average negative log-likelihood demonstrate how performance improves with increased context length, following a power-law distribution.*
 
 ### Long-Context Evaluation
