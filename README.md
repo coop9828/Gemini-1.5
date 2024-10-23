@@ -2,7 +2,7 @@
 
 ## Overview
 
-![Figure 1] (images/Figure 1.png)
+![Figure 1](images/Figure 1.png)
 *This figure shows near-perfect "needle" recall across all modalities (text, video, audio), demonstrating the model's unprecedented multimodal capabilities at scale. This is an excellent opening visual as it immediately shows the paper's key achievement.*
 
 This repository contains materials for a presentation on the paper "Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context" by the Gemini Team at Google.
@@ -67,7 +67,8 @@ Key Architectural Components:
    - Modality-specific preprocessing
 ```
 
-```Pseudocode
+Pseudocode
+```
 /* Gemini 1.5 Pro, a sparse mixture-of-experts (MoE) Transformer with long-context capabilities */
 
 Input: x ∈ V*, a sequence of multimodal tokens (text, image, audio, or video).
@@ -117,30 +118,30 @@ Subroutine: MLP_i(X)
 ## Performance Analysis
 
 ### Core Model Performance
-![Alt Text] (./images/Table 1.png, "Table 1")
-![Alt Text] (./images/Table 2.png, "Table 2")
+![Testng](images/Table 1.png, "Table 1")
+![Testing](images/Table 2.png, "Table 2")
 *These tables provide comprehensive win rates comparing Gemini 1.5 Pro and Flash against previous models, showing improvements across different capabilities.*
 
-![Alt Text] (./images/Figure 7.png, "Figure 7")
+![Testing] (images/Figure 7.png, "Figure 7")
 *These graphs showing cumulative average negative log-likelihood demonstrate how performance improves with increased context length, following a power-law distribution.*
 
 ### Long-Context Evaluation
-![Alt Text] (./images/Figure 8.png, "Figure 8")
+![Testing] (images/Figure 8.png, "Figure 8")
 *Text haystack results showing performance across different context lengths and depths, demonstrating robust retrieval capabilities up to 10M tokens.*
 
-![Alt Text] (./images/Figure 9.png, "Figure 9")
+![Testing] (images/Figure 9.png, "Figure 9")
 *Video haystack results extending similar evaluation to video content, showing strong performance up to 10.5 hours of video.*
 
 ### Scaling and Learning
-![Alt Text] (./images/Figure 13.png, "Figure 13")
+![Testing](images/Figure 13.png, "Figure 13")
 *In-context learning scaling results showing improved performance across languages and tasks with increased context.*
 
 ## Real-World Applications and Impact
 
-![Alt Text] (./images/Figure 16.png, "Figure 16")
+![Alt Text](images/Figure 16.png, "Figure 16")
 *Planning capabilities across different domains, demonstrating practical applications from classical planning to natural language tasks.*
 
-![Alt Text] (./images/Figure 19.png, "Figure 19")
+![Testing](images/Figure 19.png, "Figure 19")
 *Professional impact analysis showing significant time savings across various industries and job functions.*
 
 ### Real World Deployment Challenges
@@ -149,11 +150,11 @@ Subroutine: MLP_i(X)
 ## Safety and Future Directions
 
 ### Safety Analysis
-![Alt Text] (./images/Figure 26.png, "Figure 26")
+![Alt Text](images/Figure 26.png, "Figure 26")
 *BBQ dataset results demonstrating model performance on bias and fairness metrics.*
 
 ### Future Scaling
-![Alt Text] (./images/Figure 20.png, "Figure 20")
+![Alt Text](images/Figure 20.png, "Figure 20")
 *Flash-8B model results showing potential for efficient scaling while maintaining strong performance.*
 
 
