@@ -1,5 +1,22 @@
 # Gemini 1.5 Paper Presentation
 
+## Table of Contents
+- [Overview](#overview)
+- [Technical Architecture](#technical-architecture)
+  - [Key Architectural Components](#key-architectural-components)
+  - [Pseudocode](#pseudocode)
+- [Performance Analysis](#performance-analysis)
+  - [Core Model Performance](#core-model-performance)
+  - [Long-Context Evaluation](#long-context-evaluation)
+  - [Scaling and Learning](#scaling-and-learning)
+- [Real-World Applications and Impact](#real-world-applications-and-impact)
+  - [Real World Deployment Challenges](#real-world-deployment-challenges)
+- [Safety and Future Directions](#safety-and-future-directions)
+  - [Safety Analysis](#safety-analysis)
+  - [Future Scaling](#future-scaling)
+- [Resources & References](#resources--references)
+- [Citation](#citation)
+
 ## Overview
 
 ![Figure 1](images/Figure1.png)
