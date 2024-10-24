@@ -39,6 +39,7 @@ The architecture comprises two main models:
    - Sparse mixture-of-experts (MoE) Transformer-based model
    - Capable of processing up to 10M tokens
    - State-of-the-art performance on long-context tasks
+   - "Gemini 1.5 Pro significantly extend this context length frontier to multiple millions of tokens with almost no degradation in performance, making it possible to process significantly larger inputs." (Gemini Team et al., 2024, p. 2)
 2. Gemini 1.5 Flash
    - More lightweight variant designed for efficient inference
    - Online distilled from Pro model
