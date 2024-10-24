@@ -163,6 +163,9 @@ Subroutine: MLP_i(X)
 *Professional impact analysis showing significant time savings across various industries and job functions.*
 
 ### Real World Deployment Challenges
+-	Limited discussion of practical implementation challenges in production environments
+- No detailed analysis of latency implications for different context lengths
+- Missing discussion of memory requirements and hardware constraints
 
 
 ## Safety and Future Directions
